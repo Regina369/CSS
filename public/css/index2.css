@@ -1,0 +1,62 @@
+.card-dark {
+  background: #ededed;
+}
+
+.item {
+  color: green;
+}
+
+/* .item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  color: blue;
+} */
+
+/* .item:only-child {
+  color: blue;
+}працює тільки коли один div */
+
+/* .item:first-of-type {
+  color: blue;
+} */
+
+/* .item:last-of-type {
+  color: blue;
+}селектор останнього типу */
+
+/* .item:only-of-type {
+  color: red;
+}Селектор одиничного типу */
+
+/* .item:nth-child(3n + 2) {
+  color: rgb(71, 12, 165);
+} */
+/* Селектор порядкової дитини */
+
+/* .item:nth-last-child(3n - 2) {
+  color: rgb(27, 22, 107);
+} */
+/* Селектор зворотної порядкової дитини */
+
+/* .item:nth-of-type(2n) {
+  color: rgb(27, 22, 107);
+} */
+/* Селектор порядкового типу */
+
+/* .item:nth-last-of-type(2n) {
+  color: rgb(27, 22, 107);
+} */
+/* Селектор зворотного порядкового типу */
+
+/* .item:not(p) {
+  color: blueviolet;
+} */
+/* Селектор невідповідності */
+
+p:empty {
+  height: 10px;
+  background: red;
+}
+/* Селектор пустого контенту */
