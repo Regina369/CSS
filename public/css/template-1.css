@@ -157,6 +157,8 @@
   border: 2px solid blue;
 
   border-radius: 15px;
+
+  resize: both;
 }
 
 .card:hover {
@@ -165,7 +167,7 @@
 
   box-shadow: 5px 5px 5px 1px rgba(116, 169, 255, 0.254);
 
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .btn {
@@ -178,4 +180,39 @@
 
 h1 {
   text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.335);
+}
+
+.plans_card:nth-child(2) {
+  visibility: hidden;
+}
+
+.hero_text {
+  background: gray;
+
+  /* max-width: 250px; */
+  width: 200px;
+
+  hyphens: manual;
+
+  overflow: auto;
+
+  resize: horizontal;
+
+  word-spacing: 4px;
+}
+
+.overflow {
+  overflow-wrap: anywhere;
+}
+
+.hero_title {
+  min-width: 660px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  height: 65px;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
 }
