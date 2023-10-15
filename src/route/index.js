@@ -112,7 +112,7 @@ router.get('/template-1', function (req, res) {
     ],
     hero: {
       title: 'Pricing',
-      text: 'An extraordinarily long English word',
+      text: "Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.",
     },
     plans: [
       {

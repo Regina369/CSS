@@ -167,7 +167,7 @@
 
   box-shadow: 5px 5px 5px 1px rgba(116, 169, 255, 0.254);
 
-  cursor: default;
+  cursor: not-allowed;
 }
 
 .btn {
@@ -188,21 +188,9 @@ h1 {
 
 .hero_text {
   background: gray;
+  text-align: left;
 
-  /* max-width: 250px; */
-  width: 200px;
-
-  hyphens: manual;
-
-  overflow: auto;
-
-  resize: horizontal;
-
-  word-spacing: 4px;
-}
-
-.overflow {
-  overflow-wrap: anywhere;
+  white-space: pre-line;
 }
 
 .hero_title {
@@ -215,4 +203,27 @@ h1 {
   text-overflow: ellipsis;
 
   white-space: nowrap;
+}
+
+.page {
+  /* background-image: url('/img/test2.png');
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-attachment: fixed;
+
+  background-size: cover; */
+}
+
+.hero_text {
+  padding: 40px;
+  color: green;
+
+  border-image-source: url('/img/test2.png');
+  border-image-width: 10% 10%;
+  border-image-slice: 10% 10%;
+
+  border-image-outset: 20px;
 }
