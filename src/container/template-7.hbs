@@ -1,26 +1,22 @@
 <header class="header">
-	<a href="#test">
-		fffff
-	</a>
-
-	<nav class="header_nav">
-		<div class="header_nav_right">
-			{{>nav list=header}}
-		</div>
-	</nav>
+	{{>headerDark}}
 </header>
 
-<main class="main">
+<div class="hero">
+	<h1 class="hero_title">{{hero.title}}</h1>
+	<p class="hero_description">{{hero.description}}</p>
+	<a href="#" class="hero_button">{{hero.button.text}}</a>
+</div>
 
-</main>
+<div class="about">
+	<h1 class="about_title">{{ about.heading }}</h1>
+	<p class="about_description">{{ about.info }}</p>
+</div>
+
+<div class="articles_box">
+	{{>articleDark}}
+</div>
 
 <footer class="footer">
-
-	<div>
-		<span class="footer_copyright">Copyright 2023-2024</span>
-	</div>
-	{{#each footer.pages}}
-	<a href="{{ this.path }}">{{ this.name }}</a>
-	{{/each}}
-
+	{{>footerDark}}
 </footer>

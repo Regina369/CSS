@@ -927,6 +927,8 @@ router.get('/template-7', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('template-7', {
+    layout: 'template-7',
+
     page: {
       title: 'Example Page',
     },
