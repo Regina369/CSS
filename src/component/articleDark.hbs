@@ -1,0 +1,7 @@
+{{#each articles}}
+<div class="articles">
+	<img class="articles-image" src="{{ this.photo }}" alt="{{ this.name }}">
+	<h2 class="articles-title">{{ this.name }}</h2>
+	<p class="articles-description">{{ this.description }}</p>
+</div>
+{{/each}}
