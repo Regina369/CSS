@@ -1,0 +1,15 @@
+<header class="header">
+	<div class="header_logo">{{ header.brandName }}</div>
+	<div class="header_user">Users online: {{ header.userOnline }}</div>
+
+	<div class="header_ad">
+		<div class="ad_logo">ad</div>
+		<a href="#" class="ad_link">{{ header.ad.text }}</a>
+	</div>
+
+	<nav class="header_nav">
+		{{#each header.links}}
+		<a href="{{ this.url }}" class="nav_link">{{ this.text }}</a>
+		{{/each}}
+	</nav>
+</header>
