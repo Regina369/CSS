@@ -412,3 +412,20 @@ body:hover .modal {
 :root {
   scroll-behavior: smooth;
 }
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media all and (min-with: 0px) and (max-with: 600px) {
+  .blog {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media not all and (min-with: 601px) and (max-with: 800px) {
+  .blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
