@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: 'Segment';
-  src: url('/font/Segment-Reuglar.otf');
+  src: url('/font/Segment-Regular.otf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Segment';
-  src: url('/font/Segment-Semibold.otf');
+  src: url('/font/Segment-SemiBold.otf');
   font-weight: 600;
 }
 
